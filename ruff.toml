@@ -1,8 +1,6 @@
-[tool.ruff]
 preview = true
 
- 
-[tool.ruff.lint]
+[lint]
 select = [
    "ALL"
 ]
