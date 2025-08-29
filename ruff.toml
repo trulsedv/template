@@ -1,17 +1,11 @@
 preview = true
+line-length = 160
 
 [lint]
 select = [
    "ALL"
 ]
-extend-select = [
-   "ALL"
-]
 ignore = [
-   "ANN",  # recommend type annotation
    "CPY",  # recommend copyright notice
-   "D",  # recommend docstring
-   "DOC",  # recommend docstring
-   "E501",  # recommend limited line length
    "T20",  # recommend removal of print statements
 ]
