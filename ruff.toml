@@ -9,3 +9,6 @@ ignore = [
    "CPY",  # recommend copyright notice
    "T20",  # recommend removal of print statements
 ]
+
+[lint.pydocstyle]
+convention = "pep257"
