@@ -1,5 +1,5 @@
 preview = true
-line-length = 160
+line-length = 120
 
 [lint]
 select = [
