@@ -7,6 +7,7 @@ select = [
 ]
 ignore = [
    "CPY",  # recommend copyright notice
+   "DOC",  # pydoclint, "D" pydocstyle still lints docstrings, allows minimal docstrings if convention = "pep257"
    "T20",  # recommend removal of print statements
 ]
 
