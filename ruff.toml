@@ -6,10 +6,11 @@ select = [
    "ALL"
 ]
 ignore = [
-   "ANN",     # recommend type annotations
    "CPY",     # recommend copyright notice
-   "D",       # recommend docstrings
    "DOC",     # recommend docstrings
    "RET504",  # recommend not assigning right before returning
    "T20",     # recommend removal of print statements
 ]
+
+[lint.pydocstyle]
+convention = "pep257"
