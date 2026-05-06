@@ -1,5 +1,5 @@
 preview = true
-line-length = 120
+line-length = 180
 
 [lint]
 select = [
@@ -11,6 +11,10 @@ ignore = [
    "RET504",  # ignore assigning right before returning
    "T20",     # ignore print statements
 ]
+
+[lint.pylint]
+max-locals = 15
+max-args = 5
 
 [lint.pydocstyle]
 convention = "pep257"
