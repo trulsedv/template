@@ -7,7 +7,6 @@ select = [
 ]
 ignore = [
    "CPY",     # ignore missing-copyright-notice
-   "DOC",     # ignore pydoclint, still lints docstrings according to pydocstyle
    "RET504",  # ignore assigning right before returning
    "T20",     # ignore print statements
 ]
@@ -17,4 +16,4 @@ max-locals = 15
 max-args = 5
 
 [lint.pydocstyle]
-convention = "pep257"
+convention = "google"
