@@ -6,9 +6,10 @@ select = [
    "ALL"
 ]
 ignore = [
-   "CPY",     # ignore warning for missing copyright notice
-   "RET504",  # ignore warning for assigning right before returning
-   "T20",     # ignore warning for using print statements
+   "missing-copyright-notice",
+   "print",
+   "p-print",
+   "unnecessary-assign",
 ]
 
 [lint.pylint]
