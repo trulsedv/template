@@ -11,6 +11,7 @@ ignore = [
    "p-print",
 #   "undocumented-public-class",
 #   "undocumented-public-function",
+#   "undocumented-public-method",
 #   "undocumented-public-module",
 #   "undocumented-public-package",
    "unnecessary-assign",
