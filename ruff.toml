@@ -9,11 +9,11 @@ ignore = [
    "missing-copyright-notice",
    "print",
    "p-print",
-#   "undocumented-public-class",
-#   "undocumented-public-function",
-#   "undocumented-public-method",
-#   "undocumented-public-module",
-#   "undocumented-public-package",
+   "undocumented-public-class",
+   "undocumented-public-function",
+   "undocumented-public-method",
+   "undocumented-public-module",
+   "undocumented-public-package",
    "unnecessary-assign",
 ]
 
