@@ -8,3 +8,4 @@
 - AVOID SHORT FUNCTIONS: avoid very short functions. They may make the lines where they are used more reabable, but they make the file look more complex than it is.
 - USE UV: use uv to manage packages (uv add, uv sync etc.)
 - USE RUFF AND TY: fix all ruff and ty problems. Do not change ruff.toml, and do not ignore problems unless a reason can be given.
+- README: README.md has to at minimum include a consice explaination of how to run the main script with the exact commands.
